@@ -28,8 +28,8 @@ I attended the Kenzie Academy front-end development minicamp, where we covered t
 | Twitter Feed | http://bit.ly/3SnugVt |
 
  
- <div>
-  <img align="center" alt="Feed twitter, projeto de Jackson douglas de souza" height="auto" width="100%"
+  <div>
+  <img align="center" alt="Feed Twitter, projeto de Jackson douglas de souza" height="auto" width="100%"
   src="https://user-images.githubusercontent.com/76602433/221016032-91f95dbf-0038-4ae1-a52d-9c77d161f9c8.png">
  </div><br />
  
