@@ -1,0 +1,501 @@
+/* ***** ICONS BOOTSTRAP ***** */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+    background-color: #FFF;
+    color: #0f1419;
+}
+#content{
+    display: flex;
+}
+/* ***** HEADER ****** */
+
+.cabecalho{
+    flex-basis: 30%;
+
+}
+
+.cabecalho__logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3.2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.cabecalho__menuLista{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cabecalho__menuItem{
+    margin-left: 2rem;
+    margin-bottom: 1.5625rem;
+}
+
+.cabecalho__menuItem > .cabecalho__icons{
+    margin-right: 0.625rem;
+    margin-bottom: 0.5rem;
+
+
+}
+
+.cabecalho__menuItem a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    color: #0f1419;
+
+}
+
+.cabecalho__divButton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho__button{
+    width: 280px;
+    height: 50px;
+    padding: 0 32px;
+    background-color: rgb(29, 155, 240);
+    border-radius: 62.5rem;
+    color: #FFF;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    border: none;
+    margin: 0;
+}
+
+.cabecalho__divMiniProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: -5rem;
+}
+
+.cabecalho__divMiniProfile img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho__divMiniProfile h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.99rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.cabecalho__divMiniProfile a{
+    text-decoration: none;
+    color: #B6BCC1;
+}
+
+
+/* ***** MAIN ***** */
+
+
+.conteudoPrincipal{
+    flex-basis: 50%;
+    border-left: 1px solid #EFF3F4;
+    border-right: 1px solid #EFF3F4;
+    padding: 2rem 2rem;
+
+}
+
+
+.conteudoPrincipal__DivTitulo{
+    border-bottom: 1px solid #EFF3F4;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudoPrincipal__titulo{
+    padding: 0 0.125rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+}
+
+.conteudoPrincipal__divPhoto{
+    padding: 0 1.5rem;
+    display: flex;
+    border-bottom: 1px solid #EFF3F4;
+    margin: 0;
+    padding: 1.5rem 0;
+}
+
+.conteudoPrincipal__divFormulario{
+    width: 100%;
+}
+
+.conteudoPrincipal__formulario{
+    width: 100%;
+    padding: 0.625rem 1.875rem;
+
+}
+
+.conteudoPrincipal__formulario textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+
+}
+
+
+textarea::placeholder{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: 0.125rem 0;
+    color: #7B8892;
+}
+
+
+.conteudoPrincipal__divButton{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.conteudoPrincipal__formulario button{
+    margin-left: 10rem;
+    border: none;
+    background-color: #8ECDF8;
+    width: 93px;
+    height: 36px;
+    padding: 0.5rem 1rem;
+    border-radius: 1000px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    letter-spacing: 0.02em;
+
+}
+
+
+
+.conteudoPrincipal__icons span{
+    margin-right: 0.5rem;
+}
+
+/* ***** FEED DE NOTÍCIAS ***** */
+
+.conteudoPrincipal__Tweet{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    border-bottom: 1px solid #EFF3F4;
+
+}
+
+
+.conteudoPrincipal__photoName{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.conteudoPrincipal__name__Idname{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 1rem;
+}
+
+.conteudoPrincipal__name__Idname h3{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.9375rem;
+}
+
+.conteudoPrincipal__name__Idname p{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: left;
+    margin-left: -0.8rem;
+    color: #536471;
+}
+
+
+.conteudoPrincipal__points{
+    margin: 0;
+    padding: 0 1rem;
+}
+
+
+.conteudoPrincipal__fotoPerfil{
+    margin-top: 2rem;
+
+}
+
+.conteudoPrincipal__listaTweets{
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.conteudoPrincipal__tweetConteudo{
+    width: 90%;
+    margin-top: -1.2rem;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.conteudoPrincipal__tweetConteudo p{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+
+}
+
+.conteudoPrincipal__Tweet a{
+    text-decoration: none;
+    color: #1d9bf0;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+
+
+.conteudoPrincipal__divInteracoes{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: -1rem;
+}
+
+
+
+.conteudoPrincipal__divInteracoes span{
+    font-size: 0.8125rem;
+    color: #536471;
+}
+
+.conteudoPrincipal__divInteracoes div img{
+    width: 18px;
+    height: 18px;
+}
+
+.conteudoPrincipal__tweetConteudo__photo{
+    border-radius: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.conteudoPrincipal__video{
+    margin-bottom: 0.2rem;
+}
+
+.main__logo{
+    display: none;
+}
+
+/* ***** MEDIAS QUERY'S ***** */ 
+
+@media(max-width:1310px){
+
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .conteudoPrincipal{
+        flex-basis: 50%;
+    }
+
+
+    .main__logo{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: -1.875rem;
+        margin-bottom: 3.125rem;
+    }
+
+    .main__logo svg{
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
+    header{
+        display: none;
+    }
+
+    main{
+        width: 100%;
+        margin:  0 auto;
+        padding: 0;
+    }
+
+    .conteudoPrincipal__Tweet{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .conteudoPrincipal{
+        margin-top: 3.125rem;
+    }
+    
+    .conteudoPrincipal__icons{
+        display: inline-flex;
+    }
+
+    .conteudoPrincipal__icons .enquete, .programar{
+        display: none;
+
+    }
+
+}
+
+
+@media(max-width:500px){
+    .conteudoPrincipal{
+        flex-basis: 100%;
+    }
+
+    .conteudoPrincipal__formulario{
+        width: 100%;
+    }
+    .conteudoPrincipal__formulario textarea{
+        width: 100%;
+    }
+
+    textarea::placeholder{
+        font-size: 1rem;
+    }
+
+    .conteudoPrincipal__formulario button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+        padding: 0.5rem 1rem;
+        width: 60px;
+        height: 30px;
+        font-weight: normal;
+        font-size: 0.8rem;
+
+    }
+
+    .conteudoPrincipal__Tweet{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .conteudoPrincipal__photoName{
+        width: 100%;
+    }
+    .conteudoPrincipal__name__Idname p{
+        font-size: 0.8rem;
+    }
+
+    .conteudoPrincipal__points{
+        width: 10px;
+        height: 10px;
+    }
+
+    .conteudoPrincipal__divInteracoes{
+        width: 100%;
+        margin: 0;
+    }
+
+    .conteudoPrincipal__divInteracoes svg{
+        width: 18px;
+        height: 18px;
+    }
+
+    .conteudoPrincipal__divInteracoes div img{
+        width: 18px;
+        height: 18px;
+    }
+
+    .conteudoPrincipal__divInteracoes span{
+        font-size: 0.6rem;
+        padding: 0.1rem;
+
+    }
+}
+
+@media(max-width:412px){
+    .conteudoPrincipal__divInteracoes{
+        width: 100%;
+    }
+    .conteudoPrincipal__divInteracoes svg{
+        width: 15px;
+        height: 15px;
+    }
+
+    .conteudoPrincipal__divInteracoes span{
+        font-size: 0.5rem;
+    }
+}
+
+@media(max-width:360px){
+
+    .conteudoPrincipal__icons{
+        margin-left: -4rem;
+    }
+    .conteudoPrincipal__formulario button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: -0.5rem;
+        width: 60px;
+        height: 30px;
+        font-weight: normal;
+        font-size: 0.8rem;
+    }
+
+    textarea::placeholder{
+        font-size: 0.68rem;
+    }
+
+    .conteudoPrincipal__divInteracoes span{
+        display: none;
+    }
+
+    .conteudoPrincipal__name__Idname h3{
+        font-size: 1.1rem;
+    }
+
+    .conteudoPrincipal__name__Idname p{
+
+        display: none;
+    }
+}
