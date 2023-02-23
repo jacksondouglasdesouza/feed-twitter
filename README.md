@@ -1,7 +1,7 @@
 # Feed Twitter | Projeto responviso
 
 I attended the Kenzie Academy front-end development minicamp, where we covered the following technologies: HTML5, CSS3, and JavaScript. We also gained some basic insights into the overall context of the full-stack web development profession. At the end of the event, I completed a practical project, which involved creating a copy of the Twitter news feed. I used front-end technologies such as HTML5, CSS3, and JavaScript, along with some Bootstrap icons. The web page allows users to view tweets, like on the original Twitter platform. Additionally, I made the project page responsive and visually appealing on different devices.
-| Project | Link |
+| Project | Deploy |
 | ------ | ------ |
 | Twitter Feed | http://bit.ly/3SnugVt |
  # Meus contatos
