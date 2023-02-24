@@ -28,17 +28,17 @@ function criarTweet(tweetTexto){
     //objects.
     const tweet = {
         nome: "Jackson Douglas",
-        foto: "../../assents/img/tweet/photoPerfil.svg",
+        foto: "https://user-images.githubusercontent.com/76602433/221249674-e16410a6-08f3-45a1-a889-bef8ad4c1e72.svg",
         username: "@jackson...",
         text: tweetTexto,
         temp: `${hora}:${minutes}`,
-        pointBootstrap: "../../assents/img/tweet/dot.svg", //dont
-        pontinhos_3: "../../assents/img/tweet/three-dots.svg", //three dots
-        comentar: "../../assents/img/tweet/comentar_1.png",
-        retweetar: "../../assents/img/tweet/retweet.png",
-        curtir: "../../assents/img/tweet/like.png",
-        visualizacoes: "../../assents/img/tweet/visualizacoes.png",
-        compartilhar: "../../assents/img/tweet/compartilhar.png"
+        pointBootstrap: "https://user-images.githubusercontent.com/76602433/221249666-abf1bde2-d0f3-4b15-ab41-ac84179a7a4a.svg", //dont
+        pontinhos_3: "https://user-images.githubusercontent.com/76602433/221249683-e318ef35-a9da-44ea-9d99-b2c99f1fe862.svg", //three dots
+        comentar: "https://user-images.githubusercontent.com/76602433/221249649-7165f56a-8e3e-484d-8507-970e72efdcde.png",
+        retweetar: "https://user-images.githubusercontent.com/76602433/221249679-25b916e2-042a-4e71-935d-90e144eaa6a6.png",
+        curtir: "https://user-images.githubusercontent.com/76602433/221249671-d3b40eea-8059-4129-97a2-71e1899e3673.png",
+        visualizacoes: "https://user-images.githubusercontent.com/76602433/221249687-c4ee35f5-9e1f-4916-be50-1946ddd11196.png",
+        compartilhar: "https://user-images.githubusercontent.com/76602433/221249660-3ff5a3fd-b0b1-4743-b8c8-d93b1c3a1dc4.png"
     }
 
     listarTemplateTweet(tweet);
