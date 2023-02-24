@@ -4,7 +4,7 @@ I attended the Kenzie Academy front-end development minicamp, where we covered t
 | Project | Deploy | Badge|
 | ------ | ------ | ------ |
 | Twitter Feed - Netlify app | http://bit.ly/3SnugVt | [![Netlify Status](https://api.netlify.com/api/v1/badges/dc594a17-afdf-476b-b3e7-be0d98642883/deploy-status)](https://feed-twitter.netlify.app/) |
-| Twitter Feed - Github page | http://bit.ly/3kkhvOV |
+| Twitter Feed - Github page | http://bit.ly/3kkhvOV | <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> |
  # Meus contatos
   - https://bit.ly/m/jacksondouglasdesouza
  
